@@ -103,7 +103,7 @@ Clear Configuration and Restart Services:
 Clear Configuration and Restart Services (make sure you're inside /var/www/html):
 ```
 sudo php artisan set:all_cache
-sudo systemctl restart php8.3-fpm
+sudo systemctl restart php8.4-fpm
 sudo php artisan queue:restart
 ```
 
