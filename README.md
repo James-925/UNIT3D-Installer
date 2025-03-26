@@ -99,7 +99,6 @@ Add the following:
 SCOUT_DRIVER=meilisearch
 MEILISEARCH_HOST=http://127.0.0.1:7700
 MEILISEARCH_KEY=your_16_byte_master_key
-Clear Configuration and Restart Services:
 ```
 Clear Configuration and Restart Services (make sure you're inside /var/www/html):
 ```
