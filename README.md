@@ -89,6 +89,7 @@ sudo systemctl status meilisearch
 ```
 
 6. Configure UNIT3D for Meilisearch
+
 Update .env:
 ```
 sudo nano /var/www/html/.env
