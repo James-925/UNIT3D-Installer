@@ -64,7 +64,7 @@ snapshot_dir = "/var/lib/meilisearch/snapshots"
 ```
 sudo nano /etc/systemd/system/meilisearch.service
 ```
-Add the following:
+Add the following (change user and group 'ubuntu' to your own user and group name or use root for both:
 ```
 [Unit]
 Description=Meilisearch
