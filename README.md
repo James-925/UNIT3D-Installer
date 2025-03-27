@@ -33,7 +33,7 @@ curl -L https://install.meilisearch.com | sh
 sudo mv ./meilisearch /usr/local/bin/
 ```
 
-2. Set Up Directories:
+2. Set Up Directories (replace ubuntu:ubuntu with own user:group):
 ```
 sudo mkdir -p /var/lib/meilisearch/data /var/lib/meilisearch/dumps /var/lib/meilisearch/snapshots
 sudo chown -R ubuntu:ubuntu /var/lib/meilisearch
